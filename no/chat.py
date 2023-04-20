@@ -1,12 +1,12 @@
 import re
 import random
-import mysql.connector
+import pymysql
 
-mydb = mysql.connector.connect(
-    host="sql10.freemysqlhosting.net",
-    user="sql10612082",
-    password="9ZSNvDquHI",
-    database="sql10612082",
+mydb = pymysql.connect(
+    host="sql.freedb.tech",
+    user="freedb_gabomon",
+    password="RCmCNnZMZ9$!Pp5",
+    database="freedb_preguntas",
     port=3306
 )
 
